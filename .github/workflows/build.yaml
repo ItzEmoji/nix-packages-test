@@ -1,3 +1,7 @@
+on:
+  push:
+    branches:
+      - main
 jobs:
   cache:
     runs-on: ubuntu-latest
