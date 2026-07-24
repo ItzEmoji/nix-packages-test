@@ -3,5 +3,5 @@
 
 {
   aeroflare = pkgs.callPackage ./pkgs/aeroflare { };
-  hello = pkgs.callPacakge ./pkgs/hello { };
+  hello = pkgs.callPackage ./pkgs/hello { };
 }
