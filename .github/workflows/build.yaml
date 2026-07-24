@@ -17,3 +17,4 @@ jobs:
         with:
           cache: ghcr.io;itzemoji/nix-packages-test
           builds: changed
+          release-repo: ItzEmoji/aeroflare-test
