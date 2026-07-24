@@ -6,7 +6,8 @@ jobs:
       packages: write
     steps:
       - uses: actions/checkout@v6
-        fetch-depth: 0
+        with:
+          fetch-depth: 0
       - uses: DeterminateSystems/nix-installer-action@v20
       - uses: ItzEmoji/aeroflare@v1
         with:
