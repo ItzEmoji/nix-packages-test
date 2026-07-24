@@ -15,5 +15,5 @@ jobs:
       - uses: DeterminateSystems/nix-installer-action@v20
       - uses: ItzEmoji/aeroflare@v1
         with:
-          cache: ghcr.io;ItzEmoji/nix-packages-test
+          cache: ghcr.io;itzemoji/nix-packages-test
           builds: changed
