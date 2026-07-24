@@ -6,12 +6,12 @@
 
 buildGoModule (finalAttrs: {
   pname = "aeroflare";
-  version = "1.11.0";
+  version = "1.10.10";
   __structuredAttrs = true;
 
   src = fetchFromGitHub {
     owner = "itzemoji";
-    repo = "aeroflare";
+    repo = "aeroflare-test";
     tag = "v${finalAttrs.version}";
     hash = "sha256-8R+9/1DNkQg/hS6Mpc9rswK+rUkUUJpWYWfkThRLMJE=";
   };
